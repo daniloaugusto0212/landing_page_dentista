@@ -3,8 +3,48 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 html, body{
     height: 100%;
+}
+
+header{
+    padding: 20px 2%;
+}
+
+header .logo img{
+    float: left;
+    width: 236px;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    float: left;
+    font-size: 14px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+header nav ul li a{
+    color: #b4b4b4;
+    text-decoration: none;
 }

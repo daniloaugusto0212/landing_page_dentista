@@ -14,10 +14,22 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="images/logo.png" alt="Logomarca do consultório dentista">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logomarca do consultório dentista">
+            </div>
+            <!-- /.logo -->
+            <nav>
+                <ul>
+                    <li><a href="">quem sou</a></li>
+                    <li><a href="">depoimentos</a></li>
+                    <li><a href="">sobre</a></li>
+                    <li><a href="">contato</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
         </div>
-        <!-- /.logo -->
+        <!-- /.container -->
     </header>
 </body>
 </html>

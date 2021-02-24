@@ -19,7 +19,16 @@
                 <img src="images/logo.png" alt="Logomarca do consultório dentista">
             </div>
             <!-- /.logo -->
-            <nav>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="">quem sou</a></li>
+                    <li><a href="">depoimentos</a></li>
+                    <li><a href="">sobre</a></li>
+                    <li><a href="">contato</a></li>
+                </ul>
+            </nav>
+
+            <nav class="menu-mobile">
                 <ul>
                     <li><a href="">quem sou</a></li>
                     <li><a href="">depoimentos</a></li>
@@ -118,5 +127,28 @@
         <!-- /.container -->
     </section>
     <!-- /.servicos -->
+
+    <section class="perfil-container">
+        <div class="container">
+            <div class="perfil-wraper">
+                <div class="perfil-wraper2">
+                    <div class="img-perfil"></div>
+                    <!-- /.img-perfil -->
+                    <div class="texto-perfil">
+                        <h2>Título do Profissional</h2>
+                        <p>Dolor laborum commodo commodo et amet.Excepteur non id ullamco adipisicing ipsum.Mollit ipsum labore deserunt minim voluptate proident irure tempor culpa consequat cupidatat.Commodo et elit in nostrud proident.Consectetur velit mollit cupidatat officia.Sit qui nisi ex commodo nulla ex eiusmod labore sunt.Duis aliquip officia cillum nisi exercitation eiusmod proident voluptate et.Sint enim anim commodo id.Nostrud duis voluptate minim labore nulla.Commodo enim id adipisicing aliquip incididunt exercitation aute et voluptate ex minim ex.
+                        <br><br>
+                        Occaecat eiusmod aliqua veniam mollit fugiat sit ipsum occaecat do aute sunt.Esse excepteur magna culpa ea.
+                        Sit aute cupidatat dolore aute.Et ut consectetur magna ipsum ut.Occaecat elit enim ipsum anim exercitation aute ipsum aliquip ad sunt tempor.Elit deserunt commodo sint exercitation Lorem dolor do sunt sunt irure adipisicing sit aliquip sint.Officia ipsum adipisicing amet exercitation laborum cillum aute amet ut consequat mollit et nulla et.</p>
+                    </div>
+                    <!-- /.texto-perfil -->
+                </div>
+                <!-- /.perfil-wraper2 -->
+            </div>
+            <!-- /.perfil-wraper -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.perfil-container -->
 </body>
 </html>

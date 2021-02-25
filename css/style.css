@@ -190,7 +190,7 @@ section.perfil-container .texto-perfil h2{
 }
 
 section.perfil-container .texto-perfil p{
-    color: #4b4b4b;
+    color: #b4b4b4;
     font-size: 14px;
     margin-top: 8px;
 }
@@ -259,6 +259,40 @@ section.depoimentos > h2{
     text-align: center;
     font-size: 18px;
     text-transform: uppercase;
+}
+
+section.depoimentos .container {
+    padding: 40px 0;
+    max-width: 600px;
+}
+
+section.depoimentos .depoimento-single {
+    text-align: center;
+    width: 100%;
+}
+
+section.depoimentos quote {
+    font-size: 15px;
+    color: #b4b4b4;
+}
+
+.depoimento-single .nome-depoimento {
+    padding: 8px 0;
+}
+
+.nome-depoimento img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;    
+}
+
+.nome-depoimento span {
+    position: relative;
+    top: 4px;
+    font-size: 13px;
+    color: #b4b4b4;
+    display: inline-block;
+    vertical-align: top;
 }
 
 @media screen and (max-width: 768px) {

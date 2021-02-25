@@ -11,7 +11,7 @@
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1344px;
     width: 100%;
     margin: 0 auto;
 }
@@ -84,34 +84,36 @@ header nav ul li a{
     width: calc(100% / 6);
 }
 
-.img-mosaico-single{
+.img-mosaico-single img{
     width: 100%;
-    padding-top: 100%;
-    background-color: #ccc;
-    border: 5px solid #fff;
+    padding: 5px;
+    /* padding-top: 100%; */
+    /*background-color: #ccc;
+    border: 5px solid #fff;*/
 }
 
 section.servicos > .container{
-    max-width: 800px;
+    max-width: 1000px;
     text-align: center;
     display: flex;
     align-items: center;
     position: relative;
-    top: -30px;
+    top: -40px;
 }
 
 section.servicos > .container .box-servico{
+    width: 40%;
     background-image: url('../images/icone_dente.png');
-    background-size: 18px 18px;
-    background-position: center calc(100% - 5px);
+    background-size: 20px 20px;
+    background-position: center calc(100% - 12px);
     background-repeat: no-repeat;
+    padding: 60px 30px;
 }
 
 section.servicos > .container .box-servico h2{
     color: #fff;
     font-weight: normal;
     font-size: 15px;
-    text-transform: uppercase;
 }
 
 section.servicos > .container .box-servico p{
@@ -145,7 +147,7 @@ section.perfil-container{
 }
 
 section.perfil-container .container{
-    max-width: 800px;
+    max-width: 1080px;
 }
 
 section.perfil-container .perfil-wraper{
@@ -197,10 +199,66 @@ section.videos{
     padding: 50px 0;
 }
 
+section.videos .container{
+    max-width: 1080px;
+}
+
 section.videos .box-video{
     float: left;
     width: 33.3%;
-    padding-top: calc(33.3% - 0.6);
+    position: relative;
+    border: 5px solid #fff;
+    padding-top: calc(33.3% * 0.6);
+}
+
+section.videos iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section.tratamentos{
+    padding: 70px 40px;
+}
+
+section.tratamentos .tratamento-container{
+    width: 33.3%;
+    float: left;
+}
+
+section.tratamentos > h2{
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+section.tratamentos > .container{
+    padding: 50px 0;
+}
+
+.tratamento-single{
+    padding: 20px;
+}
+
+.tratamento-single h2{
+    font-size: 18px;
+    color: #737373;
+}
+
+.tratamento-single p{
+    padding: 10px 0;
+    font-size: 13px;  
+    color: #b4b4b4;  
+}
+
+section.depoimentos > h2{
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
@@ -259,12 +317,28 @@ section.videos .box-video{
         width: 100%;
         padding: 0 30px;
     }
+
+    section.videos{
+        text-align: center;
+    }
+
+    section.videos .box-video{
+        width: 70%;
+        float: none;
+        display: inline-block;
+        padding-top: calc(70% * 0.6);
+    }
 }
 
 @media screen and (max-width: 580px){
     section.perfil-container .img-perfil{
         width: 80%;
         padding-top: 110%;
+    }
+
+    section.videos .box-video{
+        width: 100%;
+        padding-top: calc(100% * 0.6);
     }
 }
 

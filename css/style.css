@@ -295,6 +295,49 @@ section.depoimentos quote {
     vertical-align: top;
 }
 
+.instagram-chamada,
+.facebook-chamada{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background: #98a5ae;
+}
+.instagram-chamada p,
+.facebook-chamada p{
+    color: #fff;
+    padding: 10px 0;
+    line-height: 23px;
+    font-size: 13px;
+}
+
+.mosaico-social{
+    float: left;
+    width: 100%;
+}
+
+.img-mosaico-single-social{
+    float: left;
+    width: calc(100% / 9);
+    padding-top: calc(100% / 9);
+    border: 6px solid #fff;
+}
+
+.facebook-chamada{
+    background-color: #576975;
+}
+
+@media screen and (max-width: 1024px){
+.mosaico-social > div:nth-of-type(1n+7){
+    display: none;
+}
+
+.img-mosaico-single-social{
+    width: calc(100% / 6);
+    padding-top: calc(100% / 6);
+}
+}
+
 @media screen and (max-width: 768px) {
 
     header nav.menu-desktop{
@@ -362,6 +405,18 @@ section.depoimentos quote {
         display: inline-block;
         padding-top: calc(70% * 0.6);
     }
+}
+
+@media screen and (max-width: 630px) {
+    .mosaico-social > div:nth-of-type(1n+4){
+        display: none;
+    }
+    
+    .img-mosaico-single-social{
+        width: calc(100% / 3);
+        padding-top: calc(100% / 3);
+    }
+
 }
 
 @media screen and (max-width: 580px){

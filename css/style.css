@@ -493,6 +493,7 @@ footer .container {
 
     section.videos .box-video{
         width: 70%;
+        margin-top: 30px;
         float: none;
         display: inline-block;
         padding-top: calc(70% * 0.6);
